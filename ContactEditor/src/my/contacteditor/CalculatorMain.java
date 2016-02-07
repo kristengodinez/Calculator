@@ -14,6 +14,8 @@ import javax.swing.event.*;
 /**
  *
  * @authors Kristen Godinez, Winter Smith
+ * COMP 350 - Lab 2
+ * 02/03/16
  */
 public class CalculatorMain {
     public static void main(String[] args) {

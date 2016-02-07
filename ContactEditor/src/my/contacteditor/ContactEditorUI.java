@@ -383,61 +383,61 @@ public class ContactEditorUI extends javax.swing.JFrame {
     private void zeroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_zeroActionPerformed
         // TODO add your handling code here:
         this.equation.append("0");
-        number.setText(this.equation.toString());
+        this.number.setText(this.equation.toString());
     }//GEN-LAST:event_zeroActionPerformed
 
     private void oneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_oneActionPerformed
         // TODO add your handling code here:
         this.equation.append("1");
-        number.setText(this.equation.toString());
+        this.number.setText(this.equation.toString());
     }//GEN-LAST:event_oneActionPerformed
 
     private void twoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twoActionPerformed
         // TODO add your handling code here:
         this.equation.append("2");
-        number.setText(this.equation.toString());
+        this.number.setText(this.equation.toString());
     }//GEN-LAST:event_twoActionPerformed
 
     private void threeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_threeActionPerformed
         // TODO add your handling code here:
         this.equation.append("3");
-        number.setText(this.equation.toString());
+        this.number.setText(this.equation.toString());
     }//GEN-LAST:event_threeActionPerformed
 
     private void fourActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fourActionPerformed
         // TODO add your handling code here:
         this.equation.append("4");
-        number.setText(this.equation.toString());
+        this.number.setText(this.equation.toString());
     }//GEN-LAST:event_fourActionPerformed
 
     private void fiveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fiveActionPerformed
         // TODO add your handling code here:
         this.equation.append("5");
-        number.setText(this.equation.toString());
+        this.number.setText(this.equation.toString());
     }//GEN-LAST:event_fiveActionPerformed
 
     private void sixActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sixActionPerformed
         // TODO add your handling code here:
         this.equation.append("6");
-        number.setText(this.equation.toString());
+        this.number.setText(this.equation.toString());
     }//GEN-LAST:event_sixActionPerformed
 
     private void sevenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sevenActionPerformed
         // TODO add your handling code here:
         this.equation.append("7");
-        number.setText(this.equation.toString());
+        this.number.setText(this.equation.toString());
     }//GEN-LAST:event_sevenActionPerformed
 
     private void eightActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eightActionPerformed
         // TODO add your handling code here:
         this.equation.append("8");
-        number.setText(this.equation.toString());
+        this.number.setText(this.equation.toString());
     }//GEN-LAST:event_eightActionPerformed
 
     private void nineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nineActionPerformed
         // TODO add your handling code here:
         this.equation.append("9");
-        number.setText(this.equation.toString());
+        this.number.setText(this.equation.toString());
     }//GEN-LAST:event_nineActionPerformed
 
     private void clearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearActionPerformed
@@ -445,7 +445,7 @@ public class ContactEditorUI extends javax.swing.JFrame {
         this.nan = false;
         this.operator = ' ';
         this.equation.setLength(0);
-        number.setText("0");
+        this.number.setText("0");
     }//GEN-LAST:event_clearActionPerformed
 
     private void divisionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_divisionActionPerformed
@@ -455,7 +455,7 @@ public class ContactEditorUI extends javax.swing.JFrame {
             this.operator = '/';
             this.num1 = Double.parseDouble(this.equation.toString());
             this.equation.append("/");
-            number.setText(this.equation.toString());
+            this.number.setText(this.equation.toString());
         }
         
     }//GEN-LAST:event_divisionActionPerformed
@@ -467,7 +467,7 @@ public class ContactEditorUI extends javax.swing.JFrame {
             this.operator = '*';
             this.num1 = Double.parseDouble(this.equation.toString());
             this.equation.append("*");
-            number.setText(this.equation.toString());
+            this.number.setText(this.equation.toString());
         }
     }//GEN-LAST:event_multiplyActionPerformed
 
@@ -478,7 +478,7 @@ public class ContactEditorUI extends javax.swing.JFrame {
             this.operator = '-';
             this.num1 = Double.parseDouble(this.equation.toString());
             this.equation.append("-");
-            number.setText(this.equation.toString());
+            this.number.setText(this.equation.toString());
         }
     }//GEN-LAST:event_minusActionPerformed
 
@@ -489,7 +489,7 @@ public class ContactEditorUI extends javax.swing.JFrame {
             this.operator = '+';
             this.num1 = Double.parseDouble(this.equation.toString());
             this.equation.append("+");
-            number.setText(this.equation.toString());
+            this.number.setText(this.equation.toString());
         }
     }//GEN-LAST:event_plusActionPerformed
 
